@@ -1,0 +1,25 @@
+{
+    "name": "akt",
+    "displayName": "AKuma Template",
+    "description": "AKT - Akuma Template",
+    "version": "0.0.13",   
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "akt",
+            "aliases": ["AKT - Akuma Template", "akt"],
+            "extensions": [".akt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "akt",
+            "scopeName": "source.akt",
+            "path": "./syntaxes/akt.tmLanguage.json"
+        }]
+    }
+}

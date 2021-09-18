@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "AKT - Akuma Template",
+  "fileTypes": [
+    "akt"
+  ],	
+	"patterns": [
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#tag-template"
+		},
+		{
+			"include": "#tag-alias"
+		},
+		{
+			"include": "#tag-update-data"
+		}
+	],
+	"repository": {
+		"comments": {
+			"patterns": [{
+				"name": "comment.proccess.akt",
+				"begin": "##",
+				"end": "##"
+			}]
+		},
+		"keywords": {
+			"patterns": [{
+				"name": "keywords.control.akt",
+				"match": "\\b(#pluralize|#capitalize⟩)\\b"
+			}]
+		},
+		"tag-template": {
+			"name": "entity.name.function.tagged-template.akt",
+			"begin": "⟨",
+			"end": "⟩"
+		},
+		"tag-alias": {
+			"name": "entity.name.function.alias-template.akt",
+			"begin": "♦",
+			"end": "♦"
+		},
+		"tag-update-data": {
+			"name": "variable.parameter.akt",
+			"begin": "♠",
+			"end": "♠"
+		}
+	},
+	"scopeName": "source.akt"
+}

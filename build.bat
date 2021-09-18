@@ -1,0 +1,1 @@
+copyfiles ./**/* C:/Users/julio.contreras/.vscode/extensions/akt
