@@ -8,6 +8,6 @@ Copy files to `C:/Users/%USERPROFILE%/.vscode/extensions/akt`
 
 ## Links
 
-[Akuma Project]()
+[Akuma Project](https://github.com/julioacontreras/akuma-project)
 
-[Akuma Template Language]()
+[Akuma Template Language](https://github.com/julioacontreras/akuma-project/tree/main/language)
