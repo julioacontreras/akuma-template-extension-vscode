@@ -2,7 +2,9 @@
 
 Akuma Template Language for VSCode.
 
-## Install in windows
+## Install
+
+**Windows** 
 
 Copy files to `C:/Users/%USERPROFILE%/.vscode/extensions/akt`
 
